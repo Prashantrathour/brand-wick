@@ -58,7 +58,7 @@ function Login() {
         <div >
         <ToastContainer/>
         <h1 className="font-mono text-white p-4 px-28 text-2xl font-semibold">User Login</h1>
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-white p-6 rounded-2xl shadow-2xl shadow-red-600 text-left font-mono flex flex-col space-y-5">
+    <form onSubmit={handleSubmit} className="max-w-lg overflow-hidden mx-auto bg-white p-4 rounded-2xl shadow-2xl shadow-red-600 text-left font-mono flex flex-col space-y-5">
       
       <div className="relative z-0 w-full mb-5 group flex flex-col text-left ">
         <input onChange={handleChange}
@@ -77,7 +77,7 @@ function Login() {
           Email address
         </label>
       </div>
-      <div className="relative z-0 w-full mb-5 group">
+      <div className="relative z-0  mb-5 group">
         <input onChange={handleChange}
         value={formData.password}
           type="password"

@@ -29,7 +29,7 @@ function Home() {
       <p className="text-gray-600">Welcome to your dashboard.</p>
       
       
-      <Link to="/dashboard" className="text-blue-500 hover:underline mt-4 block">Go to Dashboard</Link>
+    
 
      
     </div>
