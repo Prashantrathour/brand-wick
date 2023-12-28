@@ -17,7 +17,7 @@ app.get("/",(req,res)=>{
     res.json("Welcome ! brand wick")
 })
 
-app.listen(process.env.port,async()=>{
+app.listen(process.env.port||8080,async()=>{
     try{
         await connection
         console.log(`Running port ${process.env.port}`)
